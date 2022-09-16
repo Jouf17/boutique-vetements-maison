@@ -20,7 +20,7 @@ class RegisterController extends AbstractController
     }
 
     /**
-     * @Route("/incription", name="register")
+     * @Route("/inscription", name="register")
      */
     public function index(Request $request, UserPasswordHasherInterface $hasher): Response
     {
